@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
