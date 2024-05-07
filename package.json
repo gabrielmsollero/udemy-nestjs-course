@@ -1,0 +1,19 @@
+{
+  "name": "01-from-scratch",
+  "version": "1.0.0",
+  "description": "My solution of the exercises proposed in the course NestJS: The Complete Developer's Guide by Stephen Grider and Udemy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^7.6.17",
+    "@nestjs/core": "^7.6.17",
+    "@nestjs/platform-express": "^7.6.17",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.3.2"
+  }
+}
