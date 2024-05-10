@@ -1,22 +1,24 @@
+### Create a report
 POST http://localhost:3000/reports
 Content-Type: application/json
 
 {
-    "make": "toyota",
-    "model": "corolla",
-    "year": 1980,
-    "mileage": 100000,
-    "lat": 0,
-    "lng": 0,
-    "price": 500000
+    "make": "ford",
+    "model": "mustang",
+    "year": 1982,
+    "mileage": 50000,
+    "lat": 45,
+    "lng": 45,
+    "price": 20000
 }
 
-
-
 ### Approve a report
-PATCH http://localhost:3000/reports/1
+PATCH http://localhost:3000/reports/6
 Content-Type: application/json
 
 {
-    "approved": false
+    "approved": true
 }
+
+### Get an estimate
+GET http://localhost:3000/reports?make=ford&model=mustang&year=1982&lat=45&lng=45&mileage=20000
